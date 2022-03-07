@@ -1,0 +1,30 @@
+{
+  "name": "Heroku-v2ray-SaDa_Boy",
+  "description": "HerukoV2ray-En",
+  "keywords": [
+    "v2ray VMess VLESS"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "vmess/vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "https://www.uuidgenerator.net/",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/sesy-kolla/V2ray",
+  "repository": "https://github.com/sesy-kolla/V2ray",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
