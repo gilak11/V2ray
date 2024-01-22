@@ -12,7 +12,7 @@
     },
     "UUID": {
       "description": "https://www.uuidgenerator.net/",
-      "value": "",
+      "value": "47b9015c-b7d3-4381-9e11-a4878f459a85",
       "required": false
     },
     "WS_PATH": {
